@@ -23,7 +23,7 @@ reward_coef: 0.5
 value_coef: 0.1
 consistency_coef: 2
 temporal_coef: 2
-action_coef: 1
+inverse_coef: 1
 rho: 0.5
 kappa: 0.1
 lr: 1e-3
@@ -49,14 +49,14 @@ latent_dim: 50
 action_latent: 16
 
 # wandb (insert your own)
-use_wandb: True
-wandb_project: TD-MPC-ours
-wandb_entity: kotb
+use_wandb: false
+wandb_project: none
+wandb_entity: none
 
 # misc
-seed: 52
-exp_name: ours+intrinsic_with_FDM+decay-1e-5
+seed: 1
+exp_name: default
 eval_freq: 10000
 eval_episodes: 10
-save_video: True
-save_model: True
+save_video: false
+save_model: false
