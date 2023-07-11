@@ -12,7 +12,7 @@ import random
 from pathlib import Path
 from cfg import parse_cfg
 from env import make_env
-from algorithm.tdmpc import TDMPC
+from algorithm.tdmpc_ccem import TDMPC
 from algorithm.helper import Episode, ReplayBuffer
 import logger
 torch.backends.cudnn.benchmark = True
