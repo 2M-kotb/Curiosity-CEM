@@ -26,7 +26,7 @@ temporal_coef: 2
 inverse_coef: 1
 rho: 0.5
 kappa: 0.1
-lr: 3e-3
+lr: 3e-4
 cont_lr: 1e-5
 inverse_lr: 3e-4
 std_schedule: linear(0.5, ${min_std}, 25000)
