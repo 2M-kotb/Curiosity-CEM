@@ -1,4 +1,4 @@
-name: tdmpc
+name: ccem
 channels:
   - defaults
 dependencies:
